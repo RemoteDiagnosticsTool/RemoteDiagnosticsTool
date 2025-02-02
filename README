@@ -1,6 +1,6 @@
 <!--
 
-Hello from Remote Diagnostics Tool (RDT)
+Hello from Remote Diagnostics Tool (RDT) Version 26
 
 Desktop Administrators and Helpdesk staff will benefit from using this tool. No Installation is required. Free fully functional Product!
 
@@ -13,8 +13,10 @@ not allowed to use them on the corporate network anymore. “They were too intru
 The aim of interrogating information from the PC like: SCCM execution reports and Installed software lists was the main key but the tool seems to
 have grown much larger than first anticipated and it now does many other helpful functions as they were requested by people over the years.
 
-Please make sure you are allowed to use this tool on your domain and have read this help file and the disclaimer at the bottom of this file thoroughly
-before continuing!
+Please make sure you are allowed to use this tool on your domain and have read this help file and the disclaimer at the bottom of the help file thoroughly
+before continuing! Version history is also at the bottom of the help file.
+
+NOTE : This tool Encrypts every “Windows management connection” it makes and every “Powershell connection” it makes, so your “Admin Credentials” stay safe across the network!
 
 This tool was written in VB.Net which requires .NET 4.0 to be on the running Administrators PC (or server) where the tool is being run from. 
 Windows 7/8/10/11 or Server 2012/2016/2019/2022/2025 has this by default. This tool supports Microsoft Windows OS only!
