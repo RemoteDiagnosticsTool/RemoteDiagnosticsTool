@@ -69,6 +69,7 @@ WIM - Optional Features report
 Install & Remove software remotely as Admin
 SCCM Advert list (User)
 Windows Updates removal tool
+KB-Missing patches detection
 
 I hope you all enjoy this admin tool - it has taken a few years to develop.
 
