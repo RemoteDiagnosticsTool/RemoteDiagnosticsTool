@@ -1,6 +1,6 @@
 <!--
 
-Hello from Remote Diagnostics Tool (RDT) - Version 26
+Hello from Remote Diagnostics Tool (RDT) - Version 27
 
 Desktop Administrators and Helpdesk staff will benefit from using this tool. No Installation is required. Free fully functional Product!
 
@@ -70,6 +70,7 @@ Install & Remove software remotely as Admin
 SCCM Advert list (User)
 Windows Updates removal tool
 KB-Missing patches detection
+KB-Installed detection
 
 I hope you all enjoy this admin tool - it has taken a few years to develop.
 
