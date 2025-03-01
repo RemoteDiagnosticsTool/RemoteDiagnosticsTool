@@ -1,8 +1,8 @@
 <!--
 
-Hello from Remote Diagnostics Tool (RDT) - Version 27
+Hello from Remote Diagnostics Tool (RDT) - Version 29
 
-Desktop Administrators and Helpdesk staff will benefit from using this tool. No Installation is required. Free fully functional Product!
+Desktop Administrators and Helpdesk staff will benefit from using this tool. No Installation is required!
 
 This remote diagnostics tool (RDT) was designed and written to aid in the diagnostics and overall investigation of a remote PC whilst it is on a
 corporate network, without interrupting the user in their daily work. 
@@ -14,7 +14,7 @@ The aim of interrogating information from the PC like: SCCM execution reports an
 have grown much larger than first anticipated and it now does many other helpful functions as they were requested by people over the years.
 
 Please make sure you are allowed to use this tool on your domain and have read this help file and the disclaimer at the bottom of the help file thoroughly
-before continuing! Version history is also at the bottom of the help file.
+before continuing! Version history below and in the help file.
 
 NOTE : This tool Encrypts every “Windows management connection” it makes and every “Powershell connection” it makes, so your “Admin Credentials” stay safe across the network!
 
