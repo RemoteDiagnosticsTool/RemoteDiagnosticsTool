@@ -29,51 +29,93 @@ RDT INCLUDES THE FOLLOWING FEATURES :
 
 Microsoft Baseline Security Analyzer Report from remote PC
 Active Directory - Read (groups / users)
+Shadow Users Desktop (RDP) to aid fault resolution
 IP Address Lookup
-SCCM Re-Run of Adverts
+Terminal Server support - List User/Users logged on
 APP-V 4.x Support
-Last bootup time
-SCCM Client Tools (All functions)
 APP-V 5.x Support
+Last bootup time
+Video card report
 Logon Server Test
-Search for an Installed Program
 Antivirus check
 .NET Core Runtime and .Net Framework 1-4 Detection
 Security Groups
 Network Card report
-Remote Services control
 Remote BIOS report
-Powershell Invoke Command Button
-Shadow Users Desktop (RDP) to aid fault resolution
-Detailed processes report
-PowerShell Session as you
-Startup Items viewer
 Disk Drive Information
+Powershell > Invoke Command Button
+Detailed processes report
+PowerShell Session as Admin (you)
+Startup Items viewer
+Services control
 Programs and Features Report
+Search for an Installed Program
 Store Apps report
 FAST - Builtin Remote Registry Editor
 Processor usage %
-Terminal Server support - List User/Users logged on
 EXPORT to CSV functionality on many reports
 Quick PC ping test
 User settings report
 File Associations
 Remotely Defrag the C Drive
-Video card report
 Import PC's from file
-SCCM History list
-WIM - 3rd Party Drivers report
-InApp Screen Capture tool
-SCCM Advert list (Machine)
-WIM - Optional Features report
 Install & Remove software remotely as Admin
+InApp Screen Capture tool
+
+SCCM History list
+SCCM Advert list (Machine)
 SCCM Advert list (User)
+SCCM - KB-Missing patches detection
+SCCM - KB-Installed detection
+SCCM - Policy Compliance Checker
+SCCM - Re-Run of Adverts
+SCCM - Client Tools (All functions)
+
+WIM - 3rd Party Drivers report
+WIM - Optional Features report
 Windows Updates removal tool
-KB-Missing patches detection
-KB-Installed detection
 
 I hope you all enjoy this admin tool - it has taken a few years to develop.
 
 Tim :)
 
 -->
+
+Version History :
+
+Version 4.0.29 = Added SCCM Compliance Checker tab – see policy and if its compliant!
+Version 4.0.28 = Added SCCM Missing KB tab to detect KB patches missing or not installed through SCCM / WSUS.
+   Added SCCM Installed KB tab to detect KB patches that have installed successfully through SCCM / WSUS.
+   Added Reboot? Tab to try and detect if a pc needs a reboot or not (Work in progress) but first registry check seems ok so far.
+Version 4.0.27 = Fixed security issue in RDT-Registy button. Fixed KB-Installed ordering. New-Feature KB-Missing tab where you can detect missing KB fixes and patches missing from your PC to keep it up-to date.
+Version 4.0.26 = Fixed “DOTNET” connection security level to 6 - packet.privacy. Fixed Windows Updates date now returned is correct and can be exported out to a csv file and filtered to latest date etc. Fixed a routine that wasn’t exiting properly on the APPV detect button.
+Version 4.0.25 = Added MBSA tab, any remote PC can be security scanned using the MBSA from Microsoft to see if it conforms to baseline patch status and application patches. This tool needs the file Scan-UpdatesOffline.zip which can be downloaded from the RDT website.
+Version 4.0.24 = Added “File Version Finder” button to the start page, any file with a version can be detected on a remote pc.
+Version 4.0.23 = Fixed issue on “groups” tab where “domain group” not being removed from “local group” properly.
+Version 4.0.22 = Fixed Tab switching issue. Added “multi profile selection & deletion” on profiles tab. Added Icons to right click menu. Re-arranged so app fits full screen better with certain tabs.
+Version 4.0.21 = Added .NET tab where you can accurately detect CORE and Framework versions (x86 and x64) on a remote PC.
+Version 4.0.20 = Added older “domain\user” detection back into connection gathering to aid in finding the cause of blank “domain\user” being given as a result in some very hit and miss instances.
+Version 4.0.19 = 1) Added “Shaddow Desktop” button for remote viewing of Users desktop (If the user accepts the connection!)
+Version 4.0.18 = 1) Added Add PCs from file to Computer’s list. 2) Added Search for program on Installed Programs and features tab.
+Version 4.0.17 = Added Active Directory tab - (Read-only) operation of users / computers / groups and group members.
+Version 4.0.16 = Added Windows 11 support, fixed Microsoft registry screwup about “ProductName” reg key in Details Tab.
+Version 4.0.15 = Added Profiles Tab for Christine. Profile sizes can be got and profiles deleted as you would if you were in system>profiles.
+Version 4.0.14 = Added “Clear Computers List” right click menu option for Ian.
+Version 4.0.13 = Added “StoreApps” tab with detection for Microsoft Store Apps and MSIX packages.
+Version 4.0.12 = 1) Fixed – Package Execute (RunAs) account was not functioning with a restricted logged on user. Fixed WINRM configuration if not connected to a domain and setup via Policies.
+Version 4.0.11 = 1) Fixed - Package not deleted off of remote pc after Execute via WMI button (manual checks).
+Version 4.0.10 = 1) New PowerShell Invoke command button added to start page. 2) New Install routines on Execute tab (PowerShell driven).
+3) Dropped the need for all third-party executables (Remcom and paexec) are now no longer needed. 4) Dropdown server list now remembers.
+5) Fixed create local user button. (Password length and complexity has changed in windows. 6) Changed helpdesk save details to be per computer.
+7) Removed VNC tab as it wasn’t working correctly.
+Version 4.0.09 = 1) Missed this release number.
+Version 4..008 = 1) New 3rd party Drivers tab which lists additional installed drivers on the WIM. 2) New WIM-Optional Features tab with current state.
+Version 4.0.07 = 1) Updated Patches tab with Remote KB uninstall button for Windows 7, Windows 8 and Windows 10 Computers. (DISM based).
+Version 4.0.06 = 1) New “Computer List”. New “Right click” Add/Delete/Connect Items. (“Computer list” is now remembered next launch).
+Version 4.0.05 = 1) Fixed What Logon-Server button. Fixed User Tab detections. Added APPV5 Detection help and new detection buttons.
+Version 4.0.04 = 1) Product unlocked for everyone – FREE fully functional.
+Version 4.0.03 = 1) Fully functional 30-day trial offered.
+Version 4.0.02 = 1) GUI changed to Metro Interface.
+Version 4.0.01 = 1) Added AD user buttons on Home page for Email Address / Phone numbers / mobile Number.
+Version 4.0.00 = 1) Public Release Version supporting any PC with Dot-Net 4 installed.
+
