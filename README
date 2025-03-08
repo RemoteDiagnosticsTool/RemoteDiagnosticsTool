@@ -83,6 +83,7 @@ Tim :)
 
 Version History :
 
+Version 4.0.30 = Added “SCCM Client Tools” PowerShell trigger buttons as WMIC is being discontinued and could be malicious (according to M$)
 Version 4.0.29 = Added SCCM Compliance Checker tab – see policy and if its compliant!
 Version 4.0.28 = Added SCCM Missing KB tab to detect KB patches missing or not installed through SCCM / WSUS.
    Added SCCM Installed KB tab to detect KB patches that have installed successfully through SCCM / WSUS.
