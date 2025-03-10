@@ -1,6 +1,6 @@
 <!--
 
-Hello from Remote Diagnostics Tool (RDT) - Version 30
+Hello from Remote Diagnostics Tool (RDT) - Version 4.0.31
 
 Desktop Administrators and Helpdesk staff will benefit from using this tool. No Installation is required!
 
@@ -83,6 +83,7 @@ Tim :)
 
 Version History :
 
+Version 4.0.31 = Fixed Ping and Initial connection slowness. This was down to a VB.NET memory leak with the Microsoft “Network.Ping” function.
 Version 4.0.30 = Added “SCCM Client Tools” PowerShell trigger buttons as WMIC is being discontinued and could be malicious (according to M$)
 Version 4.0.29 = Added SCCM Compliance Checker tab – see policy and if its compliant!
 Version 4.0.28 = Added SCCM Missing KB tab to detect KB patches missing or not installed through SCCM / WSUS.
