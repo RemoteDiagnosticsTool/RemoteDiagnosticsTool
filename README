@@ -37,6 +37,7 @@ APP-V 5.x Support
 Last bootup time
 Video card report
 Audio card report
+HP BIOS Settings Report
 Logon Server Test
 Antivirus check
 .NET Core Runtime and .Net Framework 1-4 Detection
