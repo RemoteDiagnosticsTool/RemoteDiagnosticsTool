@@ -1,6 +1,6 @@
 <!--
 
-Hello from Remote Diagnostics Tool (RDT) - Version 4.0.33
+Hello from Remote Diagnostics Tool (RDT) - Version 4.0.34
 
 Desktop Administrators and Helpdesk staff will benefit from using this tool. No Installation is required!
 
@@ -86,6 +86,7 @@ Tim :)
 
 Version History :
 
+Version 4.0.34= Added MACAddress detection to the Info “Nic” section for the adapter in use. Added BIOS Serial (Machine Serial) detection on “Bios” section.
 Version 4.0.33 = Fixed "Helpdesk number" and "Helpdesk Details" not being saved correctly under the PC name. Added Cleanup routines to remove "C:\Program Files\RDT" and any "RDT" folders left on the Remote PC at connect time.
 Version 4.0.32 = Updated PC / Connection Icons and fixed blank icon issue. Added “Display AUDIO info” button to Info tab.
 Version 4.0.31 = Fixed Ping and Initial connection slowness. This was down to a VB.NET memory leak with the Microsoft “Network.Ping” function.
