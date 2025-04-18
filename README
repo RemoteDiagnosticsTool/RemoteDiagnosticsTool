@@ -1,6 +1,6 @@
 <!--
 
-Hello from Remote Diagnostics Tool (RDT) - Version 4.0.35
+Hello from Remote Diagnostics Tool (RDT) - Version 4.0.36
 
 Desktop Administrators and Helpdesk staff will benefit from using this tool. No Installation is required!
 
@@ -65,13 +65,14 @@ Install & Remove software remotely as Admin
 InApp Screen Capture tool
 Services Report
 
-SCCM History list
+SCCM History list (Applications and Programs)
 SCCM Advert list (Machine)
-SCCM Advert list (User)
+SCCM App Advert list (User)
+SCCM - KB - Status Detection (Live)
 SCCM - KB-Missing patches detection
 SCCM - KB-Installed detection
 SCCM - Policy Compliance Checker
-SCCM - Re-Run of Adverts
+SCCM - Re-Run of Machine Adverts
 SCCM - Client Tools (All functions)
 
 WIM - 3rd Party Drivers report
@@ -86,7 +87,8 @@ Tim :)
 
 Version History :
 
-Version 4.0.35 = Tweaked SCCM client detection button to show SMSClientVersion rather than ProductionVersion.
+Version 4.0.36 = SCCM TAB > Added “Execution History” Detection for Applications and Packages. Added “Apps (LoggedOnUser)” tab to detect the Applications deployed to the current logged on user. Added “KB – Status” tab to detect Software-Updates (via SCCM) #status so we can see what patches are doing on a machine (Live).
+Version 4.0.35 = Changed SCCM Tab > “Display Client Information” to detect actual client version rather than branch version.
 Version 4.0.34 = Added MACAddress detection to the Info “Nic” section for the adapter in use. Added BIOS Serial (Machine Serial) detection on “Bios” section.
 Version 4.0.33 = Fixed "Helpdesk number" and "Helpdesk Details" not being saved correctly under the PC name. Added Cleanup routines to remove "C:\Program Files\RDT" and any "RDT" folders left on the Remote PC at connect time.
 Version 4.0.32 = Updated PC / Connection Icons and fixed blank icon issue. Added “Display AUDIO info” button to Info tab.
@@ -97,8 +99,10 @@ Version 4.0.28 = Added SCCM Missing KB tab to detect KB patches missing or not i
    Added SCCM Installed KB tab to detect KB patches that have installed successfully through SCCM / WSUS.
    Added Reboot? Tab to try and detect if a pc needs a reboot or not (Work in progress) but first registry check seems ok so far.
 Version 4.0.27 = Fixed security issue in RDT-Registy button. Fixed KB-Installed ordering. New-Feature KB-Missing tab where you can detect missing KB fixes and patches missing from your PC to keep it up-to date.
-Version 4.0.26 = Fixed “DOTNET” connection security level to 6 - packet.privacy. Fixed Windows Updates date now returned is correct and can be exported out to a csv file and filtered to latest date etc. Fixed a routine that wasn’t exiting properly on the APPV detect button.
-Version 4.0.25 = Added MBSA tab, any remote PC can be security scanned using the MBSA from Microsoft to see if it conforms to baseline patch status and application patches. This tool needs the file Scan-UpdatesOffline.zip which can be downloaded from the RDT website.
+Version 4.0.26 = Fixed “DOTNET” connection security level to 6 - packet.privacy. Fixed Windows Updates date now returned is correct and can be exported out to a csv file and filtered to latest date etc.
+Fixed a routine that wasn’t exiting properly on the APPV detect button.
+Version 4.0.25 = Added MBSA tab, any remote PC can be security scanned using the MBSA from Microsoft to see if it conforms to baseline patch status and application patches. 
+This tool needs the file Scan-UpdatesOffline.zip which can be downloaded from the RDT website.
 Version 4.0.24 = Added “File Version Finder” button to the start page, any file with a version can be detected on a remote pc.
 Version 4.0.23 = Fixed issue on “groups” tab where “domain group” not being removed from “local group” properly.
 Version 4.0.22 = Fixed Tab switching issue. Added “multi profile selection & deletion” on profiles tab. Added Icons to right click menu. Re-arranged so app fits full screen better with certain tabs.
