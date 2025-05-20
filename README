@@ -1,6 +1,6 @@
 <!--
 
-Hello from Remote Diagnostics Tool (RDT) - Version 4.0.38
+Hello from Remote Diagnostics Tool (RDT) - Version 4.0.39
 
 Desktop Administrators and Helpdesk staff will benefit from using this tool. No Installation is required!
 
@@ -87,6 +87,7 @@ Tim :)
 
 Version History :
 
+Version 4.0.39 = SCCM tab > Tidied up Tab Names and incorporated Running Packages and Task Sequences Statuses together.
 Version 4.0.38 = SCCM tab > Added StateMsg Log collection tab. Gets the full client StateMsg log and decifers it.
 Version 4.0.37 = Set “On Error Resume Next” on the WMI query commands in SCCM TAB > Execution History, Adverts (Machine), Apps (LoggedOnUser) and other legacy routines that may time out trying to query WMI over the network.
 Version 4.0.36 = SCCM TAB > Added “Execution History” Detection for Applications and Packages. Added “Apps (LoggedOnUser)” tab to detect the Applications deployed to the current logged on user. Added “KB – Status” tab to detect Software-Updates (via SCCM) #status so we can see what patches are doing on a machine (Live).
