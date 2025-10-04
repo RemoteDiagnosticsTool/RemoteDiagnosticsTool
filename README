@@ -1,6 +1,6 @@
 <!--
 
-Hello from Remote Diagnostics Tool (RDT) - Version 4.0.40
+Hello from Remote Diagnostics Tool (RDT) - Version 4.0.41
 
 Desktop Administrators and Helpdesk staff will benefit from using this tool. No Installation is required!
 
@@ -87,6 +87,10 @@ Tim :)
 -->
 
 Version History :
+
+Version 4.0.41 = Fixes for PC Ping routines and PC Ping (ALL) routines so the app is much quicker in detecting online machines. Included a ping via TCP port 5985 for WINRM (PowerShell Remoting) enabled detection.
+Fixed a connection bug if nothing selected in the TreeView list on connection attempt.
+Upgraded to dotnet 4.5 in the tool so won’t work on some older windows systems with only dotnet 4 now. Windows 8 and Windows Server 2012 include .NET Framework 4.5 by default!
 
 Version 4.0.40 = On SCCM tab > Fixed (Date / Time Run) Column Sorting (Newest Run at the top now > Oldest Run at the bottom). This can now be alternated by clicking on the column header too. 
 Version 4.0.39 = Added MECM "APPS" detection in SCCM Tab. Updated "ADV User" adverts for the logged on user to include "MECM "User APPS adverts" as well as user based "Package Adverts".
