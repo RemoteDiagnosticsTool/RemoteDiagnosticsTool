@@ -1,6 +1,6 @@
 <!--
 
-Hello from Remote Diagnostics Tool (RDT) - Version 4.0.41
+Hello from Remote Diagnostics Tool (RDT) - Version 4.0.42
 
 Desktop Administrators and Helpdesk staff will benefit from using this tool. No Installation is required!
 
@@ -87,6 +87,7 @@ Tim :)
 -->
 
 Version History :
+Version 4.0.42 = Fixed the “profile detect size” button > “Access Denied” issue found by Ian (Thank you.)
 
 Version 4.0.41 = Fixes for PC Ping routines and PC Ping (ALL) routines so the app is much quicker in detecting online machines. Included a ping via TCP port 5985 for WINRM (PowerShell Remoting) enabled detection.
 Fixed a connection bug if nothing selected in the TreeView list on connection attempt.
