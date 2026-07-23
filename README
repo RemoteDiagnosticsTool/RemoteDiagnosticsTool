@@ -87,6 +87,8 @@ Tim :)
 -->
 
 Version History :
+
+Version 4.0.44 = Added PingAll135 right click menu item. Added Connect2PC5985 right click item, P$ port 5985 TCP connection. Added a check for connected “hostname” against uppercase “selectednode.name” to check we connected to the correct PC.
 Version 4.0.43 = Updated DotNetCore detections to include ASPNetCore, NetCore, WindowsDesktopApp, SDK.
 Version 4.0.42 = Fixed the “profile detect size” button > “Access Denied” issue found by Ian (Thank you.)
 
