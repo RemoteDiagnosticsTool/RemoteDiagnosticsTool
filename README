@@ -1,6 +1,6 @@
 <!--
 
-Hello from Remote Diagnostics Tool (RDT) - Version 4.0.44
+Hello from Remote Diagnostics Tool (RDT) - Version 4.0.45
 
 Desktop Administrators and Helpdesk staff will benefit from using this tool. No Installation is required!
 
@@ -88,6 +88,7 @@ Tim :)
 
 Version History :
 
+Version 4.0.45 = Tweaked check for “hostname” against “selectednode.name” to containing rather than equal (to fix FQDN name detection). Tweaked VideoRam detection button to see if over 4GB card detected (as windows uses 32 bit integer which won’t detect cards over 4GB).
 Version 4.0.44 = Added PingAll135 right click menu item. Added Connect2PC5985 right click item, P$ port 5985 TCP connection. Added a check for connected “hostname” against uppercase “selectednode.name” to check we connected to the correct PC.
 Version 4.0.43 = Updated DotNetCore detections to include ASPNetCore, NetCore, WindowsDesktopApp, SDK.
 Version 4.0.42 = Fixed the “profile detect size” button > “Access Denied” issue found by Ian (Thank you.)
